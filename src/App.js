@@ -1,11 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
+// import logo from "./logo.svg";
+// import "./App.css";
+import NavBar from "./component/navbar";
+import SimpleContainer from "./component/conatiner";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Reat test app</header>
-    </div>
+    <>
+      <div>
+        <NavBar />
+      </div>
+      <div>
+        <SimpleContainer />
+      </div>
+    </>
   );
 }
 
